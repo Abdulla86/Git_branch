@@ -1,2 +1,4 @@
 students = []
-print('Student management system')
+def add_student(name):
+    students.append(name)
+print("Student management system")
